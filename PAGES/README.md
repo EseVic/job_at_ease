@@ -1,8 +1,10 @@
-#The Pages
-This contains the pages of all the project. pages includes:
-* landing page
-* sign in page
-* login page
-* job posting pages
-* job finding page
-
+# The Pages
+This contains the pages of all the project. Pages includes:
+* Landing page
+* Sign up page
+* Login page
+* Find a job page
+* Find a jon outcome
+* Post a job pages
+* Employers login
+* Job details form
