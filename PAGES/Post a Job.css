@@ -1,0 +1,90 @@
+/* General Styles */
+ .General{
+    font-family:lato sans-serif;
+    line-height: 1.5;
+    color: black;
+    background-color: #FAF4F4;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    background-position: center;
+  }
+  
+  /* Header Styles */
+  header {
+        color: black;
+    padding: 36px;
+  }
+  
+  .humble {
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+    /*left: 100px;*/
+    top: 1px;
+    float: left;
+    width: 40px;
+    height: 50px;
+   
+    
+
+  }
+  
+  .humble img {
+    width: 40px;
+    height: 50px;
+    display: flex;
+    margin-left: 20px;
+    text-align: center;
+    /*left: 100px;*/
+    top: 1px;
+    object-fit: contain;
+    float: left;
+    
+
+  }
+  
+  header h1 {
+    margin: 0;
+    font-style: 64px;
+    text-align: center;
+  }
+  
+  /* Main Content Styles */
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .apply-button {
+    background-color: #BA8FC7;
+    color: #fff;
+    border: none;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 16px;
+    cursor: pointer;
+    text-align: center;  
+}
+.button-container {
+    text-align: center;
+  }
+  
+  .apply-button:hover {
+    background-color: #BFDAEB;
+  }
+  
+  
