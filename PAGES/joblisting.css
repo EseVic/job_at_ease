@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* #FAF4F4
+#E9A0BD
+#BA8FC7
+#BFDAEB */
+.joblist-container{
+    width: 1000px;
+    margin: 20px auto;
+
+}
+.joblist-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px auto;
+    width: 100%;
+}
+.joblist-input .listjob{
+    padding: 10px 80px;
+}
+.joblist-button{
+    padding: 10px 30px;
+    background-color: #E9A0BD;
+    border: 1px solid #E9A0BD;
+    font-weight: 900;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.joblist-input .listjob{
+    padding: 10px 80px;
+}
+.joblist-button:hover{
+    background-color: #af2f63;
+
+}
+.joblist_jc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.joblist_content{
+    /* padding: 20px 60px; */
+    margin: 20px 0;
+    line-height: 1.5em;
+    border:1px solid #E9A0BD;
+    width: 400px;
+}
+.joblist-header3{
+    width: 150px;
+    text-align: center;
+    /* margin-left:-60px; */
+    font-size: 20px;
+}
