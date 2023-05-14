@@ -1,7 +1,3 @@
-body{
-  font-family: 'Lato', sans-serif;
-  background-color:#FAF4F4;
-}
 /* General Styles */
  .General{
     font-family:lato sans-serif;
@@ -19,40 +15,34 @@ body{
         color: black;
     padding: 36px;
   }
-  .happy{
-    text-align: left;
-  }
   
   .humble {
-    display: flex;
+    display: inline-block;
     margin-right: 20px;
     text-align: center;
-    left: 250px;
+    /*left: 100px;*/
     top: 1px;
     float: left;
-    width: 80px;
+    width: 40px;
     height: 50px;
-    position: relative;
    
     
 
   }
   
   .humble img {
-    width: 80px;
+    width: 40px;
     height: 50px;
     display: flex;
     margin-left: 20px;
     text-align: center;
-    left: 250px;
+    /*left: 100px;*/
     top: 1px;
     object-fit: contain;
     float: left;
-    position: relative;
-    align-items: right;
+    
 
   }
-
   
   header h1 {
     margin: 0;
@@ -63,12 +53,10 @@ body{
   /* Main Content Styles */
   main {
     padding: 20px;
-    display: inline-block;
   }
   
-  .spencer {
+  section {
     margin-bottom: 30px;
-    align-items:left ;
   }
   
   h2 {
@@ -82,17 +70,21 @@ body{
     text-align: center;
   }
   .apply-button {
+    background-color: #BA8FC7;
+    color: #fff;
+    border: none;
+    padding: 16px;
     font-size: 16px;
-    padding: 12px 24px;
-  }
+    border-radius: 16px;
+    cursor: pointer;
+    text-align: center;  
 }
-
-@media only screen and (min-width: 768px) {
-  .apply-button {
-    font-size: 18px;
-    padding: 14px 28px;
+.button-container {
+    text-align: center;
   }
-}
-
+  
+  .apply-button:hover {
+    background-color: #BFDAEB;
+  }
   
   
