@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:#FAF4F4 ;
+}
+/*this is the navbar page*/
+.nav-width img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    right: 100%;
+}
+.menu-list{
+    margin: 10px;
+    padding: 10px;
+    transition: -4s;
+}
+.menu-list a:hover{
+    color: red;
+}
+.menu_btn{
+    margin: 10px;
+}
+.btn-green:hover{
+transition: -4s;
+color: blue;
+}
+
+/* THIS IS THE ABOUT PAGE*/
+.footer-contact-width{
+    margin: 20px 20px 20px 20px;
+    padding-left: ;
+}
+.logo-picture{
+    left: 100%;
+    width: 100px;
+    height: 100px;
+}
+.logo-picture img{
+    /*right: 300%;*/
+    display: flex;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
