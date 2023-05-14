@@ -1,0 +1,98 @@
+/* General Styles */
+ .General{
+    font-family:lato sans-serif;
+    line-height: 1.5;
+    color: black;
+    background-color: #FAF4F4;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    background-position: center;
+  }
+  
+  /* Header Styles */
+  header {
+        color: black;
+    padding: 36px;
+  }
+  .happy{
+    text-align: left;
+  }
+  
+  .humble {
+    display: flex;
+    margin-right: 20px;
+    text-align: center;
+    left: 250px;
+    top: 1px;
+    float: left;
+    width: 80px;
+    height: 50px;
+    position: relative;
+   
+    
+
+  }
+  
+  .humble img {
+    width: 80px;
+    height: 50px;
+    display: flex;
+    margin-left: 20px;
+    text-align: center;
+    left: 250px;
+    top: 1px;
+    object-fit: contain;
+    float: left;
+    position: relative;
+    align-items: right;
+
+  }
+
+  
+  header h1 {
+    margin: 0;
+    font-style: 64px;
+    text-align: center;
+  }
+  
+  /* Main Content Styles */
+  main {
+    padding: 20px;
+    display: inline-block;
+  }
+  
+  .spencer {
+    margin-bottom: 30px;
+    align-items:left ;
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .apply-button {
+    background-color: #BA8FC7;
+    color: #fff;
+    border: none;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 16px;
+    cursor: pointer;
+    text-align: center;  
+}
+.button-container {
+    text-align: center;
+  }
+  
+  .apply-button:hover {
+    background-color: #BFDAEB;
+  }
+  
+  
